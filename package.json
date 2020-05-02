@@ -1,0 +1,30 @@
+{
+  "name": "boilerplate",
+  "version": "2.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab-om-int-v.globo-tech.vpn:landings/boilerplate.git"
+  },
+  "devDependencies": {
+    "axis": "^1.0.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "4.1.0",
+    "gulp-babel": "^7.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-if": "^2.0.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.6.1",
+    "gulp-stylus": "^2.7.0",
+    "gulp-tinypng-compress": "^1.2.1",
+    "gulp-uglify": "^3.0.0",
+    "yargs": "^11.0.0"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "ie >= 9",
+    "Edge >= 12"
+  ]
+}

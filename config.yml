@@ -1,0 +1,6 @@
+name: 'Test for coronavirus'
+layouts:
+  main: 'Основной'
+areas:
+ title:
+  - 'blocks/title'

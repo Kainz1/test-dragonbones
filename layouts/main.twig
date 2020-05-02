@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta property="og:title" content="Чемпион - экспресс-тест на коронавирус" />
+    <meta property="og:description" content="Получи 200 000 руб. на первые 5 депозитов" />
+    <meta property="og:image" content="https://i.postimg.cc/cJ4hVnnn/prev-coron.jpg" />
+    <link rel="shortcut icon" href="{{ asset('/favicons/champion/192x192.png') }}" sizes="192x192">
+    <link rel="shortcut icon" href="{{ asset('/favicons/champion/32x32.png') }}" sizes="32x32">
+    <link rel="shortcut icon" href="{{ asset('/favicons/champion/16x16.png') }}" sizes="16x16">
+    <link rel="shortcut icon" href="{{ asset('/favicons/champion/16x16.ico') }}">
+    <title>{{ landing.yieldArea('title', ['blocks/title']) }}</title>
+    <link rel="stylesheet" href="{{ landing.asset('css/style.min.css') }}">
+    {{ landing.head() }}
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="slot-container">
+
+
+            <div class="text"></div>
+            <div class="main-btn" onclick="onClick()">
+                <div class="btn btn-default"></div>
+                <div class="btn btn-hover"></div>
+                <div class="btn btn-active"></div>
+                <div class="btn-mask">
+                    <div class="btn-glow"></div>
+                </div>
+
+            </div>
+
+            <div class="main-btn-1" onclick="onClick1()">
+                <div class="btn-1 btn-1-default"></div>
+                <div class="btn-1 btn-1-hover"></div>
+                <div class="btn-1 btn-1-active"></div>
+                <div class="btn-1-mask">
+                    <div class="btn-1-glow"></div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="popup" id="popup">
+        <div class="popup_bg"></div>
+
+
+            <div class="popup-window">
+                {{ landing.link_start({}) }}
+                    <div class="click-rectangle"></div>
+                {{ landing.link_end() }}
+                <div class="cross" onclick="onClick2()"></div>
+                </div>
+
+            </div>
+
+    <div class="popup" id="popup1">
+        <div class="popup_bg"></div>
+            <div class="popup-window-1">
+                {{ landing.link_start({}) }}
+                <div class="click-rectangle"></div>
+                {{ landing.link_end() }}
+                <div class="cross" onclick="onClick2()"></div>
+            </div>
+    </div>
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="{{ landing.asset('js/main.min.js') }}"></script>
+
+
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+            m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(54128929, "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true,
+            webvisor:true
+        });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/54128929" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+
+
+</body>
+</html>
